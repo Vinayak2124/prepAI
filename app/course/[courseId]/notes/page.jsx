@@ -3,6 +3,8 @@ import { useParams, useRouter } from 'next/navigation'
 import React, { useEffect,useState } from 'react'
 import axios from 'axios'
 import { Button } from '@/components/ui/button'
+
+export const dynamic = "force-dynamic";
 const ViewNotes = () => {
     const [notes, setNotes] = useState();
     const { courseId } = useParams();

@@ -57,6 +57,7 @@ import { NextResponse } from "next/server";
 import db from "@/configs/db";
 import { STUDY_MATERIAL_TABLE } from "@/configs/schema";
 import { inngest } from "@/inngest/client";
+export const dynamic = "force-dynamic";
 
 export async function POST(req) {
   try {

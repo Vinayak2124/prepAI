@@ -5,6 +5,8 @@ import React, { useEffect, useState } from 'react';
 import axios from 'axios';
 import { Button } from '@/components/ui/button';
 
+export const dynamic = "force-dynamic";
+
 const Qa = () => {
   const [qa, setQa] = useState([]);
   const { courseId } = useParams();

@@ -1,20 +1,20 @@
 {
   "/api/create-user/route": "/api/create-user",
-  "/api/courses/route": "/api/courses",
   "/_not-found/page": "/_not-found",
-  "/api/generate-course-outline/route": "/api/generate-course-outline",
+  "/api/courses/route": "/api/courses",
   "/api/generate-study-type-content/route": "/api/generate-study-type-content",
+  "/api/generate-course-outline/route": "/api/generate-course-outline",
+  "/api/inngest/route": "/api/inngest",
   "/api/study-type/route": "/api/study-type",
   "/(auth)/sign-up/[[...sign-up]]/page": "/sign-up/[[...sign-up]]",
   "/(auth)/sign-in/[[...sign-in]]/page": "/sign-in/[[...sign-in]]",
   "/page": "/",
-  "/api/inngest/route": "/api/inngest",
-  "/dashboard/page": "/dashboard",
   "/course/[courseId]/flashcards/page": "/course/[courseId]/flashcards",
-  "/course/[courseId]/page": "/course/[courseId]",
-  "/create/page": "/create",
   "/course/[courseId]/quiz/page": "/course/[courseId]/quiz",
-  "/course/[courseId]/qa/page": "/course/[courseId]/qa",
   "/dashboard/upgrade/page": "/dashboard/upgrade",
-  "/course/[courseId]/notes/page": "/course/[courseId]/notes"
+  "/course/[courseId]/page": "/course/[courseId]",
+  "/course/[courseId]/notes/page": "/course/[courseId]/notes",
+  "/dashboard/page": "/dashboard",
+  "/create/page": "/create",
+  "/course/[courseId]/qa/page": "/course/[courseId]/qa"
 }

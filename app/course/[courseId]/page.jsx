@@ -7,6 +7,8 @@ import CourseIntroCard from './_components/CourseIntroCard';
 import StudyMaterialSection from './_components/StudyMaterialSection';
 import ChapterList from './_components/ChapterList';
 
+export const dynamic = "force-dynamic";
+
 const Course = () => {
     const { courseId } = useParams();
     const [course, setCourse] = useState();

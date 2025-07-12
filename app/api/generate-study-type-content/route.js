@@ -2,6 +2,7 @@ import { STUDY_TYPE_CONTENT_TABLE } from "@/configs/schema";
 import { NextResponse } from "next/server";
 import db from "@/configs/db";
 import { inngest } from "@/inngest/client";
+export const dynamic = "force-dynamic";
 
 export async function POST(req) {
   try {
