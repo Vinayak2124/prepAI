@@ -1,0 +1,52 @@
+{
+  "name": "prep-ai",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@clerk/nextjs": "^6.22.0",
+    "@google/genai": "^1.5.1",
+    "@google/generative-ai": "^0.24.1",
+    "@neondatabase/serverless": "^1.0.0",
+    "@radix-ui/react-progress": "^1.1.7",
+    "@radix-ui/react-select": "^2.2.5",
+    "@radix-ui/react-slot": "^1.2.3",
+    "axios": "^1.10.0",
+    "class-variance-authority": "^0.7.1",
+    "clsx": "^2.1.1",
+    "dotenv": "^16.5.0",
+    "drizzle-orm": "^0.44.2",
+    "embla-carousel-react": "^8.6.0",
+    "genai": "^0.0.18",
+    "generative-ai": "^0.1.4",
+    "google": "^2.1.0",
+    "inngest": "^3.39.1",
+    "lucide-react": "^0.507.0",
+    "mime": "^4.0.7",
+    "next": "15.3.1",
+    "next-themes": "^0.4.6",
+    "react": "^19.0.0",
+    "react-card-flip": "^1.2.3",
+    "react-dom": "^19.0.0",
+    "sonner": "^2.0.5",
+    "studio": "^0.13.5",
+    "tailwind-merge": "^3.2.0",
+    "tailwindcss-animate": "^1.0.7",
+    "uuidv4": "^6.2.13",
+    "v4": "^0.0.1"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4",
+    "@types/node": "^24.0.3",
+    "autoprefixer": "^10.4.21",
+    "drizzle-kit": "^0.31.1",
+    "postcss": "^8.5.3",
+    "tailwindcss": "^3.4.17",
+    "tw-animate-css": "^1.2.9"
+  }
+}
