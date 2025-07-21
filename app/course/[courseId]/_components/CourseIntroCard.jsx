@@ -2,7 +2,7 @@ import Image from 'next/image'
 import React from 'react'
 import { Progress } from '@/components/ui/progress'
 
-
+export const revalidate =0
 const CourseIntroCard = ({ course }) => {
     // console.log(course.data.result.courseLayout.CourseSummary.CourseName);
     

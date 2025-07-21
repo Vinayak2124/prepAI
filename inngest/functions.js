@@ -1,6 +1,6 @@
 import { inngest } from "./client";
 import db from "@/configs/db";
-import { eq } from "drizzle-orm";
+import { and, eq } from "drizzle-orm";
 import {
   CHAPTER_NOTES_TABLE,
   STUDY_MATERIAL_TABLE,
@@ -400,7 +400,7 @@ ${JSON.stringify(chapter, null, 2)}
 // );
 
 export const GenerateStudyTypeContent = inngest.createFunction(
-  { id: "Generate Study Content" },
+  { id: "generate-study-content" },
   { event: "studyType.content" },
 
   async ({ event, step }) => {
@@ -410,7 +410,7 @@ export const GenerateStudyTypeContent = inngest.createFunction(
       "Generating Study Content using AI",
       async () => {
         let result;
-
+        console.log("recieved event");
         if (studyType === "flashCard") {
           result = await generateStudyTypeContentAiModel.models.generateContent(
             {
@@ -467,8 +467,16 @@ export const GenerateStudyTypeContent = inngest.createFunction(
           content: AIResult,
           status: "Ready",
         })
-        .where(eq(STUDY_TYPE_CONTENT_TABLE.courseId, courseId))
-        .where(eq(STUDY_TYPE_CONTENT_TABLE.type, studyType));
+        .where(
+          and(
+            eq(STUDY_TYPE_CONTENT_TABLE.courseId, courseId),
+            eq(STUDY_TYPE_CONTENT_TABLE.type, studyType)
+          )
+        );
+      console.log(
+        "📥 Inserted new row into STUDY_TYPE_CONTENT_TABLE:",
+        result[0]
+      );
 
       return result;
     });

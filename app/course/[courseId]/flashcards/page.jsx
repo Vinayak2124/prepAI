@@ -4,11 +4,13 @@ import { useParams } from 'next/navigation'
 import React, { useEffect, useState } from 'react'
 import FlashcardItem from './_components/FlashcardItem';
 
-const Flashcards = () => {
 
+const Flashcards = () => {
+    
     const { courseId } = useParams();
     const [flashCards, setFlashCards] = useState([]);
     const [isFlipped, setIsFlipped] = useState();
+  
     useEffect(() => {
     GetFlashCards()
 },[])
@@ -19,7 +21,8 @@ const Flashcards = () => {
             studyType:'flashCard'
         })
         setFlashCards(result?.data?.content?.flashcards)
-        console.log(result?.data?.content?.flashcards)
+
+        // console.log(result?.data?.content?.flashcards)
     }
 
     const handleClick = () => {

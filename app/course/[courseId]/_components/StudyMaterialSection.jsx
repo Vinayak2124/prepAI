@@ -1,9 +1,11 @@
 import React, { useEffect, useState } from "react";
 import MaterialCardItem from "./MaterialCardItem";
 import axios from "axios";
+import { useRouter } from "next/navigation";
 
 const StudyMaterialSection = ({ courseId, course }) => {
   const [studyContent, setStudyContent] = useState();
+  const router = useRouter()
 
   const MaterialList = [
     {
@@ -48,6 +50,8 @@ const StudyMaterialSection = ({ courseId, course }) => {
 
     console.log(result?.data);
     setStudyContent(result?.data);
+    router.refresh()
+
   };
 
   return (
@@ -61,7 +65,7 @@ const StudyMaterialSection = ({ courseId, course }) => {
             studyContent={studyContent}
             course={course}
             refreshData={GetStudyMaterial}
-            courseId={courseId} // pass ID so card can link to the page
+            courseId={courseId} 
           />
         ))}
       </div>

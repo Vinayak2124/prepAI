@@ -6,9 +6,11 @@ import axios from "axios";
 import { RefreshCw } from "lucide-react";
 import { toast } from "sonner";
 
+import { useRouter } from "next/navigation";
+export const revalidate = 0;
 const MaterialCardItem = ({ item, studyContent, course, refreshData, courseId }) => {
   const [loading, setLoading] = useState(false);
-
+    const router = useRouter()
   const GenerateContent = async () => {
     try {
       setLoading(true);
@@ -26,6 +28,7 @@ const MaterialCardItem = ({ item, studyContent, course, refreshData, courseId })
       console.log(result);
       refreshData(true);
       toast('Your content is Read.! Refresh your page.. ')
+      router.refresh()
     } catch (error) {
       console.error(error);
     } finally {

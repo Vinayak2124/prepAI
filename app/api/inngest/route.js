@@ -11,6 +11,7 @@ export const dynamic = "force-dynamic";
 // Create an API that serves zero functions
 export const { GET, POST, PUT } = serve({
   client: inngest,
+
   functions: [
     /* your functions will be passed here later! */
 
@@ -18,4 +19,5 @@ export const { GET, POST, PUT } = serve({
     GenerateNotes,
     GenerateStudyTypeContent,
   ],
+  streaming: "allow",
 });

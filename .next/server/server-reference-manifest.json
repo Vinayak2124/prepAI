@@ -1,1 +1,230 @@
-{"node":{"7f4728a64011f039430c76cc13f199e0b1a15c3495":{"workers":{"app/_not-found/page":{"moduleId":"13362","async":false},"app/(auth)/sign-up/[[...sign-up]]/page":{"moduleId":"13362","async":false},"app/(auth)/sign-in/[[...sign-in]]/page":{"moduleId":"13362","async":false},"app/page":{"moduleId":"13362","async":false},"app/course/[courseId]/flashcards/page":{"moduleId":"13362","async":false},"app/course/[courseId]/quiz/page":{"moduleId":"13362","async":false},"app/dashboard/upgrade/page":{"moduleId":"13362","async":false},"app/course/[courseId]/page":{"moduleId":"13362","async":false},"app/course/[courseId]/notes/page":{"moduleId":"13362","async":false},"app/dashboard/page":{"moduleId":"13362","async":false},"app/create/page":{"moduleId":"13362","async":false},"app/course/[courseId]/qa/page":{"moduleId":"13362","async":false}},"layer":{"app/_not-found/page":"rsc","app/(auth)/sign-up/[[...sign-up]]/page":"rsc","app/(auth)/sign-in/[[...sign-in]]/page":"rsc","app/page":"rsc","app/course/[courseId]/flashcards/page":"rsc","app/course/[courseId]/quiz/page":"rsc","app/dashboard/upgrade/page":"rsc","app/course/[courseId]/page":"rsc","app/course/[courseId]/notes/page":"rsc","app/dashboard/page":"rsc","app/create/page":"rsc","app/course/[courseId]/qa/page":"rsc"}},"7fc6682a87b17170631a2609d0c3b19dc9a93e70ac":{"workers":{"app/_not-found/page":{"moduleId":"13362","async":false},"app/(auth)/sign-up/[[...sign-up]]/page":{"moduleId":"13362","async":false},"app/(auth)/sign-in/[[...sign-in]]/page":{"moduleId":"13362","async":false},"app/page":{"moduleId":"13362","async":false},"app/course/[courseId]/flashcards/page":{"moduleId":"13362","async":false},"app/course/[courseId]/quiz/page":{"moduleId":"13362","async":false},"app/dashboard/upgrade/page":{"moduleId":"13362","async":false},"app/course/[courseId]/page":{"moduleId":"13362","async":false},"app/course/[courseId]/notes/page":{"moduleId":"13362","async":false},"app/dashboard/page":{"moduleId":"13362","async":false},"app/create/page":{"moduleId":"13362","async":false},"app/course/[courseId]/qa/page":{"moduleId":"13362","async":false}},"layer":{"app/_not-found/page":"rsc","app/(auth)/sign-up/[[...sign-up]]/page":"rsc","app/(auth)/sign-in/[[...sign-in]]/page":"rsc","app/page":"rsc","app/course/[courseId]/flashcards/page":"rsc","app/course/[courseId]/quiz/page":"rsc","app/dashboard/upgrade/page":"rsc","app/course/[courseId]/page":"rsc","app/course/[courseId]/notes/page":"rsc","app/dashboard/page":"rsc","app/create/page":"rsc","app/course/[courseId]/qa/page":"rsc"}},"7ff83253806b1afeb77933b511c1cb83365ba47d75":{"workers":{"app/_not-found/page":{"moduleId":"13362","async":false},"app/(auth)/sign-up/[[...sign-up]]/page":{"moduleId":"13362","async":false},"app/(auth)/sign-in/[[...sign-in]]/page":{"moduleId":"13362","async":false},"app/page":{"moduleId":"13362","async":false},"app/course/[courseId]/flashcards/page":{"moduleId":"13362","async":false},"app/course/[courseId]/quiz/page":{"moduleId":"13362","async":false},"app/dashboard/upgrade/page":{"moduleId":"13362","async":false},"app/course/[courseId]/page":{"moduleId":"13362","async":false},"app/course/[courseId]/notes/page":{"moduleId":"13362","async":false},"app/dashboard/page":{"moduleId":"13362","async":false},"app/create/page":{"moduleId":"13362","async":false},"app/course/[courseId]/qa/page":{"moduleId":"13362","async":false}},"layer":{"app/_not-found/page":"rsc","app/(auth)/sign-up/[[...sign-up]]/page":"rsc","app/(auth)/sign-in/[[...sign-in]]/page":"rsc","app/page":"rsc","app/course/[courseId]/flashcards/page":"rsc","app/course/[courseId]/quiz/page":"rsc","app/dashboard/upgrade/page":"rsc","app/course/[courseId]/page":"rsc","app/course/[courseId]/notes/page":"rsc","app/dashboard/page":"rsc","app/create/page":"rsc","app/course/[courseId]/qa/page":"rsc"}},"7f21b83cfb889f63f6e06d8a57a01b8a802e6a5437":{"workers":{"app/_not-found/page":{"moduleId":"26350","async":false},"app/(auth)/sign-up/[[...sign-up]]/page":{"moduleId":"26350","async":false},"app/(auth)/sign-in/[[...sign-in]]/page":{"moduleId":"26350","async":false},"app/page":{"moduleId":"26350","async":false},"app/course/[courseId]/flashcards/page":{"moduleId":"26350","async":false},"app/course/[courseId]/quiz/page":{"moduleId":"26350","async":false},"app/dashboard/upgrade/page":{"moduleId":"26350","async":false},"app/course/[courseId]/page":{"moduleId":"26350","async":false},"app/course/[courseId]/notes/page":{"moduleId":"26350","async":false},"app/dashboard/page":{"moduleId":"26350","async":false},"app/create/page":{"moduleId":"26350","async":false},"app/course/[courseId]/qa/page":{"moduleId":"26350","async":false}},"layer":{"app/_not-found/page":"action-browser","app/(auth)/sign-up/[[...sign-up]]/page":"action-browser","app/(auth)/sign-in/[[...sign-in]]/page":"action-browser","app/page":"action-browser","app/course/[courseId]/flashcards/page":"action-browser","app/course/[courseId]/quiz/page":"action-browser","app/dashboard/upgrade/page":"action-browser","app/course/[courseId]/page":"action-browser","app/course/[courseId]/notes/page":"action-browser","app/dashboard/page":"action-browser","app/create/page":"action-browser","app/course/[courseId]/qa/page":"action-browser"}}},"edge":{},"encryptionKey":"X/8Vtgza0z7MsHNGvwfx8Ym1hmfgm1sEEeNceyOlp5w="}
+{
+  "node": {
+    "7f18720073d24bb17bd4d04d2f14173d676944db1f": {
+      "workers": {
+        "app/page": {
+          "moduleId": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5CUsers%5C%5CVinayak%5C%5CDesktop%5C%5CFull_Stack_Projects%5C%5Cprep-ai%5C%5Cnode_modules%5C%5C%40clerk%5C%5Cnextjs%5C%5Cdist%5C%5Cesm%5C%5Capp-router%5C%5Ckeyless-actions.js%22%2C%5B%7B%22id%22%3A%227f18720073d24bb17bd4d04d2f14173d676944db1f%22%2C%22exportedName%22%3A%22createOrReadKeylessAction%22%7D%2C%7B%22id%22%3A%227fce8cc7469c8516f4eb9470ba7f496fc6d1b31706%22%2C%22exportedName%22%3A%22deleteKeylessAction%22%7D%2C%7B%22id%22%3A%227fe3f9bb0792a17fbbb02ba400aecdf06a9a513021%22%2C%22exportedName%22%3A%22syncKeylessConfigAction%22%7D%5D%5D%5D&__client_imported__=!",
+          "async": false
+        },
+        "app/(auth)/sign-in/[[...sign-in]]/page": {
+          "moduleId": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5CUsers%5C%5CVinayak%5C%5CDesktop%5C%5CFull_Stack_Projects%5C%5Cprep-ai%5C%5Cnode_modules%5C%5C%40clerk%5C%5Cnextjs%5C%5Cdist%5C%5Cesm%5C%5Capp-router%5C%5Ckeyless-actions.js%22%2C%5B%7B%22id%22%3A%227f18720073d24bb17bd4d04d2f14173d676944db1f%22%2C%22exportedName%22%3A%22createOrReadKeylessAction%22%7D%2C%7B%22id%22%3A%227fce8cc7469c8516f4eb9470ba7f496fc6d1b31706%22%2C%22exportedName%22%3A%22deleteKeylessAction%22%7D%2C%7B%22id%22%3A%227fe3f9bb0792a17fbbb02ba400aecdf06a9a513021%22%2C%22exportedName%22%3A%22syncKeylessConfigAction%22%7D%5D%5D%5D&__client_imported__=!",
+          "async": false
+        },
+        "app/(auth)/sign-up/[[...sign-up]]/page": {
+          "moduleId": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5CUsers%5C%5CVinayak%5C%5CDesktop%5C%5CFull_Stack_Projects%5C%5Cprep-ai%5C%5Cnode_modules%5C%5C%40clerk%5C%5Cnextjs%5C%5Cdist%5C%5Cesm%5C%5Capp-router%5C%5Ckeyless-actions.js%22%2C%5B%7B%22id%22%3A%227f18720073d24bb17bd4d04d2f14173d676944db1f%22%2C%22exportedName%22%3A%22createOrReadKeylessAction%22%7D%2C%7B%22id%22%3A%227fce8cc7469c8516f4eb9470ba7f496fc6d1b31706%22%2C%22exportedName%22%3A%22deleteKeylessAction%22%7D%2C%7B%22id%22%3A%227fe3f9bb0792a17fbbb02ba400aecdf06a9a513021%22%2C%22exportedName%22%3A%22syncKeylessConfigAction%22%7D%5D%5D%5D&__client_imported__=!",
+          "async": false
+        },
+        "app/dashboard/page": {
+          "moduleId": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5CUsers%5C%5CVinayak%5C%5CDesktop%5C%5CFull_Stack_Projects%5C%5Cprep-ai%5C%5Cnode_modules%5C%5C%40clerk%5C%5Cnextjs%5C%5Cdist%5C%5Cesm%5C%5Capp-router%5C%5Ckeyless-actions.js%22%2C%5B%7B%22id%22%3A%227f18720073d24bb17bd4d04d2f14173d676944db1f%22%2C%22exportedName%22%3A%22createOrReadKeylessAction%22%7D%2C%7B%22id%22%3A%227fce8cc7469c8516f4eb9470ba7f496fc6d1b31706%22%2C%22exportedName%22%3A%22deleteKeylessAction%22%7D%2C%7B%22id%22%3A%227fe3f9bb0792a17fbbb02ba400aecdf06a9a513021%22%2C%22exportedName%22%3A%22syncKeylessConfigAction%22%7D%5D%5D%5D&__client_imported__=!",
+          "async": false
+        },
+        "app/create/page": {
+          "moduleId": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5CUsers%5C%5CVinayak%5C%5CDesktop%5C%5CFull_Stack_Projects%5C%5Cprep-ai%5C%5Cnode_modules%5C%5C%40clerk%5C%5Cnextjs%5C%5Cdist%5C%5Cesm%5C%5Capp-router%5C%5Ckeyless-actions.js%22%2C%5B%7B%22id%22%3A%227f18720073d24bb17bd4d04d2f14173d676944db1f%22%2C%22exportedName%22%3A%22createOrReadKeylessAction%22%7D%2C%7B%22id%22%3A%227fce8cc7469c8516f4eb9470ba7f496fc6d1b31706%22%2C%22exportedName%22%3A%22deleteKeylessAction%22%7D%2C%7B%22id%22%3A%227fe3f9bb0792a17fbbb02ba400aecdf06a9a513021%22%2C%22exportedName%22%3A%22syncKeylessConfigAction%22%7D%5D%5D%5D&__client_imported__=!",
+          "async": false
+        },
+        "app/course/[courseId]/page": {
+          "moduleId": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5CUsers%5C%5CVinayak%5C%5CDesktop%5C%5CFull_Stack_Projects%5C%5Cprep-ai%5C%5Cnode_modules%5C%5C%40clerk%5C%5Cnextjs%5C%5Cdist%5C%5Cesm%5C%5Capp-router%5C%5Ckeyless-actions.js%22%2C%5B%7B%22id%22%3A%227f18720073d24bb17bd4d04d2f14173d676944db1f%22%2C%22exportedName%22%3A%22createOrReadKeylessAction%22%7D%2C%7B%22id%22%3A%227fce8cc7469c8516f4eb9470ba7f496fc6d1b31706%22%2C%22exportedName%22%3A%22deleteKeylessAction%22%7D%2C%7B%22id%22%3A%227fe3f9bb0792a17fbbb02ba400aecdf06a9a513021%22%2C%22exportedName%22%3A%22syncKeylessConfigAction%22%7D%5D%5D%5D&__client_imported__=!",
+          "async": false
+        },
+        "app/course/[courseId]/notes/page": {
+          "moduleId": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5CUsers%5C%5CVinayak%5C%5CDesktop%5C%5CFull_Stack_Projects%5C%5Cprep-ai%5C%5Cnode_modules%5C%5C%40clerk%5C%5Cnextjs%5C%5Cdist%5C%5Cesm%5C%5Capp-router%5C%5Ckeyless-actions.js%22%2C%5B%7B%22id%22%3A%227f18720073d24bb17bd4d04d2f14173d676944db1f%22%2C%22exportedName%22%3A%22createOrReadKeylessAction%22%7D%2C%7B%22id%22%3A%227fce8cc7469c8516f4eb9470ba7f496fc6d1b31706%22%2C%22exportedName%22%3A%22deleteKeylessAction%22%7D%2C%7B%22id%22%3A%227fe3f9bb0792a17fbbb02ba400aecdf06a9a513021%22%2C%22exportedName%22%3A%22syncKeylessConfigAction%22%7D%5D%5D%5D&__client_imported__=!",
+          "async": false
+        },
+        "app/course/[courseId]/qa/page": {
+          "moduleId": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5CUsers%5C%5CVinayak%5C%5CDesktop%5C%5CFull_Stack_Projects%5C%5Cprep-ai%5C%5Cnode_modules%5C%5C%40clerk%5C%5Cnextjs%5C%5Cdist%5C%5Cesm%5C%5Capp-router%5C%5Ckeyless-actions.js%22%2C%5B%7B%22id%22%3A%227f18720073d24bb17bd4d04d2f14173d676944db1f%22%2C%22exportedName%22%3A%22createOrReadKeylessAction%22%7D%2C%7B%22id%22%3A%227fce8cc7469c8516f4eb9470ba7f496fc6d1b31706%22%2C%22exportedName%22%3A%22deleteKeylessAction%22%7D%2C%7B%22id%22%3A%227fe3f9bb0792a17fbbb02ba400aecdf06a9a513021%22%2C%22exportedName%22%3A%22syncKeylessConfigAction%22%7D%5D%5D%5D&__client_imported__=!",
+          "async": false
+        },
+        "app/course/[courseId]/quiz/page": {
+          "moduleId": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5CUsers%5C%5CVinayak%5C%5CDesktop%5C%5CFull_Stack_Projects%5C%5Cprep-ai%5C%5Cnode_modules%5C%5C%40clerk%5C%5Cnextjs%5C%5Cdist%5C%5Cesm%5C%5Capp-router%5C%5Ckeyless-actions.js%22%2C%5B%7B%22id%22%3A%227f18720073d24bb17bd4d04d2f14173d676944db1f%22%2C%22exportedName%22%3A%22createOrReadKeylessAction%22%7D%2C%7B%22id%22%3A%227fce8cc7469c8516f4eb9470ba7f496fc6d1b31706%22%2C%22exportedName%22%3A%22deleteKeylessAction%22%7D%2C%7B%22id%22%3A%227fe3f9bb0792a17fbbb02ba400aecdf06a9a513021%22%2C%22exportedName%22%3A%22syncKeylessConfigAction%22%7D%5D%5D%5D&__client_imported__=!",
+          "async": false
+        },
+        "app/course/[courseId]/flashcards/page": {
+          "moduleId": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5CUsers%5C%5CVinayak%5C%5CDesktop%5C%5CFull_Stack_Projects%5C%5Cprep-ai%5C%5Cnode_modules%5C%5C%40clerk%5C%5Cnextjs%5C%5Cdist%5C%5Cesm%5C%5Capp-router%5C%5Ckeyless-actions.js%22%2C%5B%7B%22id%22%3A%227f18720073d24bb17bd4d04d2f14173d676944db1f%22%2C%22exportedName%22%3A%22createOrReadKeylessAction%22%7D%2C%7B%22id%22%3A%227fce8cc7469c8516f4eb9470ba7f496fc6d1b31706%22%2C%22exportedName%22%3A%22deleteKeylessAction%22%7D%2C%7B%22id%22%3A%227fe3f9bb0792a17fbbb02ba400aecdf06a9a513021%22%2C%22exportedName%22%3A%22syncKeylessConfigAction%22%7D%5D%5D%5D&__client_imported__=!",
+          "async": false
+        }
+      },
+      "layer": {
+        "app/page": "rsc",
+        "app/(auth)/sign-in/[[...sign-in]]/page": "rsc",
+        "app/(auth)/sign-up/[[...sign-up]]/page": "rsc",
+        "app/dashboard/page": "rsc",
+        "app/create/page": "rsc",
+        "app/course/[courseId]/page": "rsc",
+        "app/course/[courseId]/notes/page": "rsc",
+        "app/course/[courseId]/qa/page": "rsc",
+        "app/course/[courseId]/quiz/page": "rsc",
+        "app/course/[courseId]/flashcards/page": "rsc"
+      }
+    },
+    "7fce8cc7469c8516f4eb9470ba7f496fc6d1b31706": {
+      "workers": {
+        "app/page": {
+          "moduleId": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5CUsers%5C%5CVinayak%5C%5CDesktop%5C%5CFull_Stack_Projects%5C%5Cprep-ai%5C%5Cnode_modules%5C%5C%40clerk%5C%5Cnextjs%5C%5Cdist%5C%5Cesm%5C%5Capp-router%5C%5Ckeyless-actions.js%22%2C%5B%7B%22id%22%3A%227f18720073d24bb17bd4d04d2f14173d676944db1f%22%2C%22exportedName%22%3A%22createOrReadKeylessAction%22%7D%2C%7B%22id%22%3A%227fce8cc7469c8516f4eb9470ba7f496fc6d1b31706%22%2C%22exportedName%22%3A%22deleteKeylessAction%22%7D%2C%7B%22id%22%3A%227fe3f9bb0792a17fbbb02ba400aecdf06a9a513021%22%2C%22exportedName%22%3A%22syncKeylessConfigAction%22%7D%5D%5D%5D&__client_imported__=!",
+          "async": false
+        },
+        "app/(auth)/sign-in/[[...sign-in]]/page": {
+          "moduleId": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5CUsers%5C%5CVinayak%5C%5CDesktop%5C%5CFull_Stack_Projects%5C%5Cprep-ai%5C%5Cnode_modules%5C%5C%40clerk%5C%5Cnextjs%5C%5Cdist%5C%5Cesm%5C%5Capp-router%5C%5Ckeyless-actions.js%22%2C%5B%7B%22id%22%3A%227f18720073d24bb17bd4d04d2f14173d676944db1f%22%2C%22exportedName%22%3A%22createOrReadKeylessAction%22%7D%2C%7B%22id%22%3A%227fce8cc7469c8516f4eb9470ba7f496fc6d1b31706%22%2C%22exportedName%22%3A%22deleteKeylessAction%22%7D%2C%7B%22id%22%3A%227fe3f9bb0792a17fbbb02ba400aecdf06a9a513021%22%2C%22exportedName%22%3A%22syncKeylessConfigAction%22%7D%5D%5D%5D&__client_imported__=!",
+          "async": false
+        },
+        "app/(auth)/sign-up/[[...sign-up]]/page": {
+          "moduleId": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5CUsers%5C%5CVinayak%5C%5CDesktop%5C%5CFull_Stack_Projects%5C%5Cprep-ai%5C%5Cnode_modules%5C%5C%40clerk%5C%5Cnextjs%5C%5Cdist%5C%5Cesm%5C%5Capp-router%5C%5Ckeyless-actions.js%22%2C%5B%7B%22id%22%3A%227f18720073d24bb17bd4d04d2f14173d676944db1f%22%2C%22exportedName%22%3A%22createOrReadKeylessAction%22%7D%2C%7B%22id%22%3A%227fce8cc7469c8516f4eb9470ba7f496fc6d1b31706%22%2C%22exportedName%22%3A%22deleteKeylessAction%22%7D%2C%7B%22id%22%3A%227fe3f9bb0792a17fbbb02ba400aecdf06a9a513021%22%2C%22exportedName%22%3A%22syncKeylessConfigAction%22%7D%5D%5D%5D&__client_imported__=!",
+          "async": false
+        },
+        "app/dashboard/page": {
+          "moduleId": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5CUsers%5C%5CVinayak%5C%5CDesktop%5C%5CFull_Stack_Projects%5C%5Cprep-ai%5C%5Cnode_modules%5C%5C%40clerk%5C%5Cnextjs%5C%5Cdist%5C%5Cesm%5C%5Capp-router%5C%5Ckeyless-actions.js%22%2C%5B%7B%22id%22%3A%227f18720073d24bb17bd4d04d2f14173d676944db1f%22%2C%22exportedName%22%3A%22createOrReadKeylessAction%22%7D%2C%7B%22id%22%3A%227fce8cc7469c8516f4eb9470ba7f496fc6d1b31706%22%2C%22exportedName%22%3A%22deleteKeylessAction%22%7D%2C%7B%22id%22%3A%227fe3f9bb0792a17fbbb02ba400aecdf06a9a513021%22%2C%22exportedName%22%3A%22syncKeylessConfigAction%22%7D%5D%5D%5D&__client_imported__=!",
+          "async": false
+        },
+        "app/create/page": {
+          "moduleId": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5CUsers%5C%5CVinayak%5C%5CDesktop%5C%5CFull_Stack_Projects%5C%5Cprep-ai%5C%5Cnode_modules%5C%5C%40clerk%5C%5Cnextjs%5C%5Cdist%5C%5Cesm%5C%5Capp-router%5C%5Ckeyless-actions.js%22%2C%5B%7B%22id%22%3A%227f18720073d24bb17bd4d04d2f14173d676944db1f%22%2C%22exportedName%22%3A%22createOrReadKeylessAction%22%7D%2C%7B%22id%22%3A%227fce8cc7469c8516f4eb9470ba7f496fc6d1b31706%22%2C%22exportedName%22%3A%22deleteKeylessAction%22%7D%2C%7B%22id%22%3A%227fe3f9bb0792a17fbbb02ba400aecdf06a9a513021%22%2C%22exportedName%22%3A%22syncKeylessConfigAction%22%7D%5D%5D%5D&__client_imported__=!",
+          "async": false
+        },
+        "app/course/[courseId]/page": {
+          "moduleId": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5CUsers%5C%5CVinayak%5C%5CDesktop%5C%5CFull_Stack_Projects%5C%5Cprep-ai%5C%5Cnode_modules%5C%5C%40clerk%5C%5Cnextjs%5C%5Cdist%5C%5Cesm%5C%5Capp-router%5C%5Ckeyless-actions.js%22%2C%5B%7B%22id%22%3A%227f18720073d24bb17bd4d04d2f14173d676944db1f%22%2C%22exportedName%22%3A%22createOrReadKeylessAction%22%7D%2C%7B%22id%22%3A%227fce8cc7469c8516f4eb9470ba7f496fc6d1b31706%22%2C%22exportedName%22%3A%22deleteKeylessAction%22%7D%2C%7B%22id%22%3A%227fe3f9bb0792a17fbbb02ba400aecdf06a9a513021%22%2C%22exportedName%22%3A%22syncKeylessConfigAction%22%7D%5D%5D%5D&__client_imported__=!",
+          "async": false
+        },
+        "app/course/[courseId]/notes/page": {
+          "moduleId": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5CUsers%5C%5CVinayak%5C%5CDesktop%5C%5CFull_Stack_Projects%5C%5Cprep-ai%5C%5Cnode_modules%5C%5C%40clerk%5C%5Cnextjs%5C%5Cdist%5C%5Cesm%5C%5Capp-router%5C%5Ckeyless-actions.js%22%2C%5B%7B%22id%22%3A%227f18720073d24bb17bd4d04d2f14173d676944db1f%22%2C%22exportedName%22%3A%22createOrReadKeylessAction%22%7D%2C%7B%22id%22%3A%227fce8cc7469c8516f4eb9470ba7f496fc6d1b31706%22%2C%22exportedName%22%3A%22deleteKeylessAction%22%7D%2C%7B%22id%22%3A%227fe3f9bb0792a17fbbb02ba400aecdf06a9a513021%22%2C%22exportedName%22%3A%22syncKeylessConfigAction%22%7D%5D%5D%5D&__client_imported__=!",
+          "async": false
+        },
+        "app/course/[courseId]/qa/page": {
+          "moduleId": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5CUsers%5C%5CVinayak%5C%5CDesktop%5C%5CFull_Stack_Projects%5C%5Cprep-ai%5C%5Cnode_modules%5C%5C%40clerk%5C%5Cnextjs%5C%5Cdist%5C%5Cesm%5C%5Capp-router%5C%5Ckeyless-actions.js%22%2C%5B%7B%22id%22%3A%227f18720073d24bb17bd4d04d2f14173d676944db1f%22%2C%22exportedName%22%3A%22createOrReadKeylessAction%22%7D%2C%7B%22id%22%3A%227fce8cc7469c8516f4eb9470ba7f496fc6d1b31706%22%2C%22exportedName%22%3A%22deleteKeylessAction%22%7D%2C%7B%22id%22%3A%227fe3f9bb0792a17fbbb02ba400aecdf06a9a513021%22%2C%22exportedName%22%3A%22syncKeylessConfigAction%22%7D%5D%5D%5D&__client_imported__=!",
+          "async": false
+        },
+        "app/course/[courseId]/quiz/page": {
+          "moduleId": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5CUsers%5C%5CVinayak%5C%5CDesktop%5C%5CFull_Stack_Projects%5C%5Cprep-ai%5C%5Cnode_modules%5C%5C%40clerk%5C%5Cnextjs%5C%5Cdist%5C%5Cesm%5C%5Capp-router%5C%5Ckeyless-actions.js%22%2C%5B%7B%22id%22%3A%227f18720073d24bb17bd4d04d2f14173d676944db1f%22%2C%22exportedName%22%3A%22createOrReadKeylessAction%22%7D%2C%7B%22id%22%3A%227fce8cc7469c8516f4eb9470ba7f496fc6d1b31706%22%2C%22exportedName%22%3A%22deleteKeylessAction%22%7D%2C%7B%22id%22%3A%227fe3f9bb0792a17fbbb02ba400aecdf06a9a513021%22%2C%22exportedName%22%3A%22syncKeylessConfigAction%22%7D%5D%5D%5D&__client_imported__=!",
+          "async": false
+        },
+        "app/course/[courseId]/flashcards/page": {
+          "moduleId": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5CUsers%5C%5CVinayak%5C%5CDesktop%5C%5CFull_Stack_Projects%5C%5Cprep-ai%5C%5Cnode_modules%5C%5C%40clerk%5C%5Cnextjs%5C%5Cdist%5C%5Cesm%5C%5Capp-router%5C%5Ckeyless-actions.js%22%2C%5B%7B%22id%22%3A%227f18720073d24bb17bd4d04d2f14173d676944db1f%22%2C%22exportedName%22%3A%22createOrReadKeylessAction%22%7D%2C%7B%22id%22%3A%227fce8cc7469c8516f4eb9470ba7f496fc6d1b31706%22%2C%22exportedName%22%3A%22deleteKeylessAction%22%7D%2C%7B%22id%22%3A%227fe3f9bb0792a17fbbb02ba400aecdf06a9a513021%22%2C%22exportedName%22%3A%22syncKeylessConfigAction%22%7D%5D%5D%5D&__client_imported__=!",
+          "async": false
+        }
+      },
+      "layer": {
+        "app/page": "rsc",
+        "app/(auth)/sign-in/[[...sign-in]]/page": "rsc",
+        "app/(auth)/sign-up/[[...sign-up]]/page": "rsc",
+        "app/dashboard/page": "rsc",
+        "app/create/page": "rsc",
+        "app/course/[courseId]/page": "rsc",
+        "app/course/[courseId]/notes/page": "rsc",
+        "app/course/[courseId]/qa/page": "rsc",
+        "app/course/[courseId]/quiz/page": "rsc",
+        "app/course/[courseId]/flashcards/page": "rsc"
+      }
+    },
+    "7fe3f9bb0792a17fbbb02ba400aecdf06a9a513021": {
+      "workers": {
+        "app/page": {
+          "moduleId": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5CUsers%5C%5CVinayak%5C%5CDesktop%5C%5CFull_Stack_Projects%5C%5Cprep-ai%5C%5Cnode_modules%5C%5C%40clerk%5C%5Cnextjs%5C%5Cdist%5C%5Cesm%5C%5Capp-router%5C%5Ckeyless-actions.js%22%2C%5B%7B%22id%22%3A%227f18720073d24bb17bd4d04d2f14173d676944db1f%22%2C%22exportedName%22%3A%22createOrReadKeylessAction%22%7D%2C%7B%22id%22%3A%227fce8cc7469c8516f4eb9470ba7f496fc6d1b31706%22%2C%22exportedName%22%3A%22deleteKeylessAction%22%7D%2C%7B%22id%22%3A%227fe3f9bb0792a17fbbb02ba400aecdf06a9a513021%22%2C%22exportedName%22%3A%22syncKeylessConfigAction%22%7D%5D%5D%5D&__client_imported__=!",
+          "async": false
+        },
+        "app/(auth)/sign-in/[[...sign-in]]/page": {
+          "moduleId": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5CUsers%5C%5CVinayak%5C%5CDesktop%5C%5CFull_Stack_Projects%5C%5Cprep-ai%5C%5Cnode_modules%5C%5C%40clerk%5C%5Cnextjs%5C%5Cdist%5C%5Cesm%5C%5Capp-router%5C%5Ckeyless-actions.js%22%2C%5B%7B%22id%22%3A%227f18720073d24bb17bd4d04d2f14173d676944db1f%22%2C%22exportedName%22%3A%22createOrReadKeylessAction%22%7D%2C%7B%22id%22%3A%227fce8cc7469c8516f4eb9470ba7f496fc6d1b31706%22%2C%22exportedName%22%3A%22deleteKeylessAction%22%7D%2C%7B%22id%22%3A%227fe3f9bb0792a17fbbb02ba400aecdf06a9a513021%22%2C%22exportedName%22%3A%22syncKeylessConfigAction%22%7D%5D%5D%5D&__client_imported__=!",
+          "async": false
+        },
+        "app/(auth)/sign-up/[[...sign-up]]/page": {
+          "moduleId": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5CUsers%5C%5CVinayak%5C%5CDesktop%5C%5CFull_Stack_Projects%5C%5Cprep-ai%5C%5Cnode_modules%5C%5C%40clerk%5C%5Cnextjs%5C%5Cdist%5C%5Cesm%5C%5Capp-router%5C%5Ckeyless-actions.js%22%2C%5B%7B%22id%22%3A%227f18720073d24bb17bd4d04d2f14173d676944db1f%22%2C%22exportedName%22%3A%22createOrReadKeylessAction%22%7D%2C%7B%22id%22%3A%227fce8cc7469c8516f4eb9470ba7f496fc6d1b31706%22%2C%22exportedName%22%3A%22deleteKeylessAction%22%7D%2C%7B%22id%22%3A%227fe3f9bb0792a17fbbb02ba400aecdf06a9a513021%22%2C%22exportedName%22%3A%22syncKeylessConfigAction%22%7D%5D%5D%5D&__client_imported__=!",
+          "async": false
+        },
+        "app/dashboard/page": {
+          "moduleId": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5CUsers%5C%5CVinayak%5C%5CDesktop%5C%5CFull_Stack_Projects%5C%5Cprep-ai%5C%5Cnode_modules%5C%5C%40clerk%5C%5Cnextjs%5C%5Cdist%5C%5Cesm%5C%5Capp-router%5C%5Ckeyless-actions.js%22%2C%5B%7B%22id%22%3A%227f18720073d24bb17bd4d04d2f14173d676944db1f%22%2C%22exportedName%22%3A%22createOrReadKeylessAction%22%7D%2C%7B%22id%22%3A%227fce8cc7469c8516f4eb9470ba7f496fc6d1b31706%22%2C%22exportedName%22%3A%22deleteKeylessAction%22%7D%2C%7B%22id%22%3A%227fe3f9bb0792a17fbbb02ba400aecdf06a9a513021%22%2C%22exportedName%22%3A%22syncKeylessConfigAction%22%7D%5D%5D%5D&__client_imported__=!",
+          "async": false
+        },
+        "app/create/page": {
+          "moduleId": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5CUsers%5C%5CVinayak%5C%5CDesktop%5C%5CFull_Stack_Projects%5C%5Cprep-ai%5C%5Cnode_modules%5C%5C%40clerk%5C%5Cnextjs%5C%5Cdist%5C%5Cesm%5C%5Capp-router%5C%5Ckeyless-actions.js%22%2C%5B%7B%22id%22%3A%227f18720073d24bb17bd4d04d2f14173d676944db1f%22%2C%22exportedName%22%3A%22createOrReadKeylessAction%22%7D%2C%7B%22id%22%3A%227fce8cc7469c8516f4eb9470ba7f496fc6d1b31706%22%2C%22exportedName%22%3A%22deleteKeylessAction%22%7D%2C%7B%22id%22%3A%227fe3f9bb0792a17fbbb02ba400aecdf06a9a513021%22%2C%22exportedName%22%3A%22syncKeylessConfigAction%22%7D%5D%5D%5D&__client_imported__=!",
+          "async": false
+        },
+        "app/course/[courseId]/page": {
+          "moduleId": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5CUsers%5C%5CVinayak%5C%5CDesktop%5C%5CFull_Stack_Projects%5C%5Cprep-ai%5C%5Cnode_modules%5C%5C%40clerk%5C%5Cnextjs%5C%5Cdist%5C%5Cesm%5C%5Capp-router%5C%5Ckeyless-actions.js%22%2C%5B%7B%22id%22%3A%227f18720073d24bb17bd4d04d2f14173d676944db1f%22%2C%22exportedName%22%3A%22createOrReadKeylessAction%22%7D%2C%7B%22id%22%3A%227fce8cc7469c8516f4eb9470ba7f496fc6d1b31706%22%2C%22exportedName%22%3A%22deleteKeylessAction%22%7D%2C%7B%22id%22%3A%227fe3f9bb0792a17fbbb02ba400aecdf06a9a513021%22%2C%22exportedName%22%3A%22syncKeylessConfigAction%22%7D%5D%5D%5D&__client_imported__=!",
+          "async": false
+        },
+        "app/course/[courseId]/notes/page": {
+          "moduleId": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5CUsers%5C%5CVinayak%5C%5CDesktop%5C%5CFull_Stack_Projects%5C%5Cprep-ai%5C%5Cnode_modules%5C%5C%40clerk%5C%5Cnextjs%5C%5Cdist%5C%5Cesm%5C%5Capp-router%5C%5Ckeyless-actions.js%22%2C%5B%7B%22id%22%3A%227f18720073d24bb17bd4d04d2f14173d676944db1f%22%2C%22exportedName%22%3A%22createOrReadKeylessAction%22%7D%2C%7B%22id%22%3A%227fce8cc7469c8516f4eb9470ba7f496fc6d1b31706%22%2C%22exportedName%22%3A%22deleteKeylessAction%22%7D%2C%7B%22id%22%3A%227fe3f9bb0792a17fbbb02ba400aecdf06a9a513021%22%2C%22exportedName%22%3A%22syncKeylessConfigAction%22%7D%5D%5D%5D&__client_imported__=!",
+          "async": false
+        },
+        "app/course/[courseId]/qa/page": {
+          "moduleId": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5CUsers%5C%5CVinayak%5C%5CDesktop%5C%5CFull_Stack_Projects%5C%5Cprep-ai%5C%5Cnode_modules%5C%5C%40clerk%5C%5Cnextjs%5C%5Cdist%5C%5Cesm%5C%5Capp-router%5C%5Ckeyless-actions.js%22%2C%5B%7B%22id%22%3A%227f18720073d24bb17bd4d04d2f14173d676944db1f%22%2C%22exportedName%22%3A%22createOrReadKeylessAction%22%7D%2C%7B%22id%22%3A%227fce8cc7469c8516f4eb9470ba7f496fc6d1b31706%22%2C%22exportedName%22%3A%22deleteKeylessAction%22%7D%2C%7B%22id%22%3A%227fe3f9bb0792a17fbbb02ba400aecdf06a9a513021%22%2C%22exportedName%22%3A%22syncKeylessConfigAction%22%7D%5D%5D%5D&__client_imported__=!",
+          "async": false
+        },
+        "app/course/[courseId]/quiz/page": {
+          "moduleId": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5CUsers%5C%5CVinayak%5C%5CDesktop%5C%5CFull_Stack_Projects%5C%5Cprep-ai%5C%5Cnode_modules%5C%5C%40clerk%5C%5Cnextjs%5C%5Cdist%5C%5Cesm%5C%5Capp-router%5C%5Ckeyless-actions.js%22%2C%5B%7B%22id%22%3A%227f18720073d24bb17bd4d04d2f14173d676944db1f%22%2C%22exportedName%22%3A%22createOrReadKeylessAction%22%7D%2C%7B%22id%22%3A%227fce8cc7469c8516f4eb9470ba7f496fc6d1b31706%22%2C%22exportedName%22%3A%22deleteKeylessAction%22%7D%2C%7B%22id%22%3A%227fe3f9bb0792a17fbbb02ba400aecdf06a9a513021%22%2C%22exportedName%22%3A%22syncKeylessConfigAction%22%7D%5D%5D%5D&__client_imported__=!",
+          "async": false
+        },
+        "app/course/[courseId]/flashcards/page": {
+          "moduleId": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5CUsers%5C%5CVinayak%5C%5CDesktop%5C%5CFull_Stack_Projects%5C%5Cprep-ai%5C%5Cnode_modules%5C%5C%40clerk%5C%5Cnextjs%5C%5Cdist%5C%5Cesm%5C%5Capp-router%5C%5Ckeyless-actions.js%22%2C%5B%7B%22id%22%3A%227f18720073d24bb17bd4d04d2f14173d676944db1f%22%2C%22exportedName%22%3A%22createOrReadKeylessAction%22%7D%2C%7B%22id%22%3A%227fce8cc7469c8516f4eb9470ba7f496fc6d1b31706%22%2C%22exportedName%22%3A%22deleteKeylessAction%22%7D%2C%7B%22id%22%3A%227fe3f9bb0792a17fbbb02ba400aecdf06a9a513021%22%2C%22exportedName%22%3A%22syncKeylessConfigAction%22%7D%5D%5D%5D&__client_imported__=!",
+          "async": false
+        }
+      },
+      "layer": {
+        "app/page": "rsc",
+        "app/(auth)/sign-in/[[...sign-in]]/page": "rsc",
+        "app/(auth)/sign-up/[[...sign-up]]/page": "rsc",
+        "app/dashboard/page": "rsc",
+        "app/create/page": "rsc",
+        "app/course/[courseId]/page": "rsc",
+        "app/course/[courseId]/notes/page": "rsc",
+        "app/course/[courseId]/qa/page": "rsc",
+        "app/course/[courseId]/quiz/page": "rsc",
+        "app/course/[courseId]/flashcards/page": "rsc"
+      }
+    },
+    "7fff8ab33c999af749012df6bd9b60d952304940c0": {
+      "workers": {
+        "app/page": {
+          "moduleId": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5CUsers%5C%5CVinayak%5C%5CDesktop%5C%5CFull_Stack_Projects%5C%5Cprep-ai%5C%5Cnode_modules%5C%5C%40clerk%5C%5Cnextjs%5C%5Cdist%5C%5Cesm%5C%5Capp-router%5C%5Cserver-actions.js%22%2C%5B%7B%22id%22%3A%227fff8ab33c999af749012df6bd9b60d952304940c0%22%2C%22exportedName%22%3A%22invalidateCacheAction%22%7D%5D%5D%5D&__client_imported__=true!",
+          "async": false
+        },
+        "app/(auth)/sign-in/[[...sign-in]]/page": {
+          "moduleId": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5CUsers%5C%5CVinayak%5C%5CDesktop%5C%5CFull_Stack_Projects%5C%5Cprep-ai%5C%5Cnode_modules%5C%5C%40clerk%5C%5Cnextjs%5C%5Cdist%5C%5Cesm%5C%5Capp-router%5C%5Cserver-actions.js%22%2C%5B%7B%22id%22%3A%227fff8ab33c999af749012df6bd9b60d952304940c0%22%2C%22exportedName%22%3A%22invalidateCacheAction%22%7D%5D%5D%5D&__client_imported__=true!",
+          "async": false
+        },
+        "app/(auth)/sign-up/[[...sign-up]]/page": {
+          "moduleId": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5CUsers%5C%5CVinayak%5C%5CDesktop%5C%5CFull_Stack_Projects%5C%5Cprep-ai%5C%5Cnode_modules%5C%5C%40clerk%5C%5Cnextjs%5C%5Cdist%5C%5Cesm%5C%5Capp-router%5C%5Cserver-actions.js%22%2C%5B%7B%22id%22%3A%227fff8ab33c999af749012df6bd9b60d952304940c0%22%2C%22exportedName%22%3A%22invalidateCacheAction%22%7D%5D%5D%5D&__client_imported__=true!",
+          "async": false
+        },
+        "app/dashboard/page": {
+          "moduleId": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5CUsers%5C%5CVinayak%5C%5CDesktop%5C%5CFull_Stack_Projects%5C%5Cprep-ai%5C%5Cnode_modules%5C%5C%40clerk%5C%5Cnextjs%5C%5Cdist%5C%5Cesm%5C%5Capp-router%5C%5Cserver-actions.js%22%2C%5B%7B%22id%22%3A%227fff8ab33c999af749012df6bd9b60d952304940c0%22%2C%22exportedName%22%3A%22invalidateCacheAction%22%7D%5D%5D%5D&__client_imported__=true!",
+          "async": false
+        },
+        "app/create/page": {
+          "moduleId": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5CUsers%5C%5CVinayak%5C%5CDesktop%5C%5CFull_Stack_Projects%5C%5Cprep-ai%5C%5Cnode_modules%5C%5C%40clerk%5C%5Cnextjs%5C%5Cdist%5C%5Cesm%5C%5Capp-router%5C%5Cserver-actions.js%22%2C%5B%7B%22id%22%3A%227fff8ab33c999af749012df6bd9b60d952304940c0%22%2C%22exportedName%22%3A%22invalidateCacheAction%22%7D%5D%5D%5D&__client_imported__=true!",
+          "async": false
+        },
+        "app/course/[courseId]/page": {
+          "moduleId": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5CUsers%5C%5CVinayak%5C%5CDesktop%5C%5CFull_Stack_Projects%5C%5Cprep-ai%5C%5Cnode_modules%5C%5C%40clerk%5C%5Cnextjs%5C%5Cdist%5C%5Cesm%5C%5Capp-router%5C%5Cserver-actions.js%22%2C%5B%7B%22id%22%3A%227fff8ab33c999af749012df6bd9b60d952304940c0%22%2C%22exportedName%22%3A%22invalidateCacheAction%22%7D%5D%5D%5D&__client_imported__=true!",
+          "async": false
+        },
+        "app/course/[courseId]/notes/page": {
+          "moduleId": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5CUsers%5C%5CVinayak%5C%5CDesktop%5C%5CFull_Stack_Projects%5C%5Cprep-ai%5C%5Cnode_modules%5C%5C%40clerk%5C%5Cnextjs%5C%5Cdist%5C%5Cesm%5C%5Capp-router%5C%5Cserver-actions.js%22%2C%5B%7B%22id%22%3A%227fff8ab33c999af749012df6bd9b60d952304940c0%22%2C%22exportedName%22%3A%22invalidateCacheAction%22%7D%5D%5D%5D&__client_imported__=true!",
+          "async": false
+        },
+        "app/course/[courseId]/qa/page": {
+          "moduleId": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5CUsers%5C%5CVinayak%5C%5CDesktop%5C%5CFull_Stack_Projects%5C%5Cprep-ai%5C%5Cnode_modules%5C%5C%40clerk%5C%5Cnextjs%5C%5Cdist%5C%5Cesm%5C%5Capp-router%5C%5Cserver-actions.js%22%2C%5B%7B%22id%22%3A%227fff8ab33c999af749012df6bd9b60d952304940c0%22%2C%22exportedName%22%3A%22invalidateCacheAction%22%7D%5D%5D%5D&__client_imported__=true!",
+          "async": false
+        },
+        "app/course/[courseId]/quiz/page": {
+          "moduleId": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5CUsers%5C%5CVinayak%5C%5CDesktop%5C%5CFull_Stack_Projects%5C%5Cprep-ai%5C%5Cnode_modules%5C%5C%40clerk%5C%5Cnextjs%5C%5Cdist%5C%5Cesm%5C%5Capp-router%5C%5Cserver-actions.js%22%2C%5B%7B%22id%22%3A%227fff8ab33c999af749012df6bd9b60d952304940c0%22%2C%22exportedName%22%3A%22invalidateCacheAction%22%7D%5D%5D%5D&__client_imported__=true!",
+          "async": false
+        },
+        "app/course/[courseId]/flashcards/page": {
+          "moduleId": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5CUsers%5C%5CVinayak%5C%5CDesktop%5C%5CFull_Stack_Projects%5C%5Cprep-ai%5C%5Cnode_modules%5C%5C%40clerk%5C%5Cnextjs%5C%5Cdist%5C%5Cesm%5C%5Capp-router%5C%5Cserver-actions.js%22%2C%5B%7B%22id%22%3A%227fff8ab33c999af749012df6bd9b60d952304940c0%22%2C%22exportedName%22%3A%22invalidateCacheAction%22%7D%5D%5D%5D&__client_imported__=true!",
+          "async": false
+        }
+      },
+      "layer": {
+        "app/page": "action-browser",
+        "app/(auth)/sign-in/[[...sign-in]]/page": "action-browser",
+        "app/(auth)/sign-up/[[...sign-up]]/page": "action-browser",
+        "app/dashboard/page": "action-browser",
+        "app/create/page": "action-browser",
+        "app/course/[courseId]/page": "action-browser",
+        "app/course/[courseId]/notes/page": "action-browser",
+        "app/course/[courseId]/qa/page": "action-browser",
+        "app/course/[courseId]/quiz/page": "action-browser",
+        "app/course/[courseId]/flashcards/page": "action-browser"
+      }
+    }
+  },
+  "edge": {},
+  "encryptionKey": "RtrCbTJQNJBTepE/arXmj7kWICawzETfzzAcOSfPNFg="
+}

@@ -5,7 +5,7 @@ import React, { useEffect, useState } from 'react';
 import axios from 'axios';
 import { Button } from '@/components/ui/button';
 
-export const dynamic = "force-dynamic";
+
 
 const Qa = () => {
   const [qa, setQa] = useState([]);
@@ -14,6 +14,7 @@ const Qa = () => {
   const router = useRouter();
 
   useEffect(() => {
+    setStepCount(0)
     fetchQA();
   }, []);
 
@@ -23,8 +24,8 @@ const Qa = () => {
         courseId: courseId,
         studyType: 'qa'
       });
-      setQa(result?.data?.[1]?.content || []);
-      console.log(result?.data?.[1]?.content);
+      setQa(result?.data?.[2]?.content || []);
+      console.log(result?.data?.[2]?.content);
     } catch (err) {
       console.error("Failed to fetch QA:", err);
     }
@@ -39,7 +40,7 @@ const Qa = () => {
             Previous
           </Button>
         )}
-        {qa.map((_, index) => (
+        {qa?.map((_, index) => (
           <div
             key={index}
             className={`h-2 flex-1 rounded-full ${index <= stepCount ? "bg-blue-600" : "bg-gray-200"}`}

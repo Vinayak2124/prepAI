@@ -1,7 +1,7 @@
 import { Button } from '@/components/ui/button'
 import React, { useState } from 'react'
 import ReactCardFlip from 'react-card-flip'
-
+export const revalidate =0
 const FlashcardItem = ({ flashCards }) => {
   const [step, setStep] = useState(0)
   const [isFlipped, setIsFlipped] = useState(false)

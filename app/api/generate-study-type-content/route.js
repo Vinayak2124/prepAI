@@ -2,6 +2,7 @@ import { STUDY_TYPE_CONTENT_TABLE } from "@/configs/schema";
 import { NextResponse } from "next/server";
 import db from "@/configs/db";
 import { inngest } from "@/inngest/client";
+export const revalidate = 0
 export const dynamic = "force-dynamic";
 
 export async function POST(req) {
@@ -103,7 +104,7 @@ Now generate the quiz on: ${chapters}
         id: STUDY_TYPE_CONTENT_TABLE.id,
       });
 
-    await inngest.send({
+    console.log("🧠 Sending Inngest event:", {
       name: "studyType.content",
       data: {
         studyType: type,
@@ -112,6 +113,15 @@ Now generate the quiz on: ${chapters}
       },
     });
 
+    await inngest.send({
+      name: "studyType.content",
+      data: {
+        studyType: type,
+        prompt: PROMPT,
+        courseId: courseId,
+      },
+    });
+    
     return NextResponse.json(result[0]);
   } catch (error) {
     console.error("Error in study-type-content API:", error);

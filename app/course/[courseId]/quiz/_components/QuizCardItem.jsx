@@ -1,6 +1,6 @@
 import { Button } from '@/components/ui/button'
 import React,{useEffect, useState} from 'react'
-
+export const revalidate =0
 const QuizCardItem = ({ quiz,userSelectedOption }) => {
     const options = quiz?.options
     console.log(options)
