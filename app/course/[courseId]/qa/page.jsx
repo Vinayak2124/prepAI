@@ -20,18 +20,18 @@ const Qa = () => {
 
   const fetchQA = async () => {
     try {
-      const result = await axios.post('/api/study-type', {
+      const {data} = await axios.post('/api/study-type', {
         courseId: courseId,
         studyType: 'qa'
       });
-      setQa(result?.data?.[2]?.content || []);
-      console.log(result?.data?.[2]?.content);
+      setQa(data[0]?.content);
+      console.log(data[0]?.content);
     } catch (err) {
       console.error("Failed to fetch QA:", err);
     }
   };
 
-  return (
+    return (
     <div className="p-4">
       {/* Step Indicator */}
       <div className='flex gap-5 items-center mb-6'>
@@ -46,7 +46,7 @@ const Qa = () => {
             className={`h-2 flex-1 rounded-full ${index <= stepCount ? "bg-blue-600" : "bg-gray-200"}`}
           ></div>
         ))}
-        {stepCount <= qa.length - 1 && (
+        {stepCount < qa?.length - 1 && (
           <Button variant="outline" size="sm" onClick={() => setStepCount(stepCount + 1)}>
             Next
           </Button>
@@ -55,15 +55,12 @@ const Qa = () => {
 
       {/* Main Q&A Display */}
       <div className="space-y-4">
-       
-  
-            <div dangerouslySetInnerHTML={{ __html: qa[stepCount]?.question || '' }} />
-            <div dangerouslySetInnerHTML={{ __html: qa[stepCount]?.answer || '' }} />
- 
+        <div dangerouslySetInnerHTML={{ __html: qa[stepCount]?.question  }} />
+        <div dangerouslySetInnerHTML={{ __html: qa[stepCount]?.answer  }} />
 
-        {stepCount >= qa.length && (
-          <div className='flex items-center gap-10 flex-col justify-center mt-5'>
-            <h2>End of Questions</h2>
+        {/* Show "Go to Course Page" only on last question */}
+        {stepCount === qa?.length - 1 && (
+          <div className="mt-6">
             <Button onClick={() => router.back()}>Go to Course Page</Button>
           </div>
         )}
